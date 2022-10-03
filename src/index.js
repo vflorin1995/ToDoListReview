@@ -27,7 +27,7 @@ const display = () => {
     checkbox.classList = 'checkbox';
 
     const editField = document.createElement('input');
-    editField.className = 'editField';
+    editField.className = 'editField ';
     editField.value = task.description;
 
     const remove = document.createElement('div');

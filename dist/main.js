@@ -36,7 +36,7 @@ const display = () => {
     checkbox.classList = 'checkbox';
 
     const editField = document.createElement('input');
-    editField.className = 'editField';
+    editField.className = 'editField ';
     editField.value = task.description;
 
     const remove = document.createElement('div');
@@ -460,7 +460,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  max-width: 300px;\n  margin: 96px auto;\n  font-family: 'Times New Roman', Times, serif;\n  font-size: 18px;\n  font-weight: 600;\n}\n\n.flex {\n  display: flex;\n  align-items: center;\n}\n\n.checkbox {\n  margin: 0 12px;\n}\n\n.index {\n  margin-left: auto;\n  margin-right: 12px;\n}\n\n.border {\n  border: 1px solid gray;\n}\n\n.input {\n  width: 282px;\n  height: 60px;\n  border: 1px solid gray;\n  padding: 0 0 0 16px;\n  font-family: 'Times New Roman', Times, serif;\n  font-size: 18px;\n  font-weight: 600;\n}\n\n.displayNone {\n  display: none;\n}\n\n.editField {\n  max-width: 196px;\n  margin: 18px auto 18px 0;\n  border: none;\n  font-family: 'Times New Roman', Times, serif;\n  font-size: 18px;\n  font-weight: 600;\n}\n\n.remove {\n  margin-right: 18px;\n}\n\nbutton {\n  background-color: green;\n  color: white;\n  margin: 0;\n  border: 1px solid gray;\n  padding: 10px 92px;\n  font-family: 'Times New Roman', Times, serif;\n  font-size: 18px;\n  font-weight: 600;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  max-width: 300px;\n  margin: 96px auto;\n}\n\n.flex {\n  display: flex;\n  align-items: center;\n}\n\n.checkbox {\n  margin: 0 12px;\n}\n\n.index {\n  margin-left: auto;\n  margin-right: 12px;\n}\n\n.border {\n  border: 1px solid gray;\n}\n\n.input {\n  width: 282px;\n  height: 60px;\n  border: 1px solid gray;\n  padding: 0 0 0 16px;\n}\n\n.displayNone {\n  display: none;\n}\n\n.editField {\n  max-width: 196px;\n  margin: 18px auto 18px 0;\n  border: none;\n}\n\n.remove {\n  margin-right: 18px;\n}\n\nbutton {\n  background-color: green;\n  color: white;\n  margin: 0;\n  border: 1px solid gray;\n  padding: 10px 92px;\n}\n\n.font {\n  font-family: 'Times New Roman', Times, serif;\n  font-size: 18px;\n  font-weight: 600;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
